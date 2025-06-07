@@ -117,7 +117,7 @@
    <hr /> 
 
    <h3 id="Inspetor_Elementos">O que é e como funciona o Inspetor de Elementos?</a></h3>
-   <ol>
+   <ol type="A">
      <li><b>DevTools: </b> São <b><i>Conjuntos de Ferramentas de Desenvolvimento</i></b> integradas aos <b><i>Navegadores modernos (como Chrome, 
          Firefox, Edge e Safari)</i></b>. Cada <b><i>Navegador</i></b> apresenta seu próprio <b><i>Painel de DevTools</i></b>, mas a ideia central 
          é a mesma:                      
@@ -152,83 +152,45 @@
 
             <li><b>Firefox: </b>Clique com o botão direito e escolha “Inspecionar” ou use Ctrl + Shift + C (no Windows) / Cmd + Opt + C (no Mac).
      Navegando pelo Painel de Elementos</b>.</li>
-
+        </ol>        
      <br/>
 
-     <li></li>
+     <li><b>Benefícios da DevTools: </b>A visualização da <b><i>Aba Elementos (Chrome)</i></b> ou do <b><i>Inspector (Firefox)</i></b> 
+            tem como vantagem:</li>   
      <br/>
-
-     <br/>
-
-     <li></li>
-     <br/>
-
+        <ol>
+            <li>Mostrará a <b><i>Árvore de Elementos do HTML (DOM)</i></b> em Tempo Real;</li>
+            <li>Identificará a <b><i>Tag</i></b> onde determinado <b><i>Conteúdo</i></b> ou <b><i>Componente</i></b> está localizado;</li>
+            <li>Verificará quais são os <b><i>Atributos</i></b> utilizados (como <b><i>id</i></b> e/ou <b><i>class</i></b>)</li>
+            <li>Mostrará a <b><i>Estrutura Hierárquica</i></b> e ficará mais fácil de entender como as <b><i>Tags</i></b> estão Aninhadas;</li>
+            <li>O <b><i>Código HTML</b></i> pode ser editado diretamento do <b><i>Navegador</i></b> através da <b><i>Aba Elementos.</i></b>.</li>  
+        </ol>
      <br/>
    </ol>
 
-
-
-Ao abrir as DevTools
-, a aba Elements (no Chrome) ou Inspector (no Firefox) exibirá a árvore de elementos HTML
- (DOM) em tempo real. Esta visualização ajuda a:
-
-1. Identificar a tag onde está localizado determinado conteúdo ou componente
-.
-
-2. Verificar quais atributos estão definidos (como id
-, class
-, data- etc.).
-
-3. Observar a estrutura hierárquica e entender como as tags
- estão aninhadas.
-
-Na prática, basta passar o mouse sobre um elemento na DevTools
- para que ele seja destacado na tela. É possível clicar nesses elementos para examinar detalhes de suas propriedades
- e estilos (mesmo que o foco aqui seja HTML, boa parte do fluxo envolve também o CSS, pois as DevTools exibem essas declarações lado a lado).
-
-Editando HTML Direto no Navegador🔗
-Uma funcionalidade muito útil para quem está aprendendo HTML
- é a possibilidade de editar o código diretamente na aba de Elements. Você pode:
-
-1. Dar duplo clique
- em qualquer tag
- ou texto.
-
-2. Modificar o que achar necessário (por exemplo, o conteúdo de um parágrafo
-) e então pressionar Enter para confirmar.
-
-Para experimentos rápidos ou correções emergenciais durante o desenvolvimento, essa abordagem é extremamente útil. Lembre-se de que essas alterações não são permanentes no arquivo original - elas funcionam apenas na página em execução no navegador.
-
-Ferramentas de Depuração e Console🔗
-Além da inspeção de elementos HTML
-, as DevTools oferecem uma aba de Console
- (geralmente rotulada como “Console
-”). Embora o console
- seja mais utilizado para JavaScript
-, também pode mostrar erros de carregamento ou avisos sobre recursos HTML deprecados e problemas de acessibilidade
-.
-
-Por exemplo, se existir um atributo que não seja reconhecido em uma versão particular do HTML5, o console pode exibir um alerta. Fique atento a essa aba para resolver possíveis problemas que não são imediatamente visíveis na exibição
- do layout.
-
-Dicas Para Inspeção de Elementos🔗
-Localize elementos
- de forma rápida: Clique no ícone de seletor (geralmente um cursor que aponta para uma caixa) na barra das DevTools
-. Em seguida, clique no elemento
- da página que deseja inspecionar.
-Pesquise por tags
- específicas: Algumas ferramentas incluem um campo de pesquisa (normalmente no topo ou em um menu lateral). Você pode digitar o nome de uma tag ou atributo para encontrá-lo em todo o HTML
-.
-Aproveite para testar modificações pontuais: Inserir um atributo “id
-” ou modificar um “class
-” e analisar efeitos imediatos na página resulta em um maior entendimento sobre a hierarquia do HTML
-.
    <small><a href="#Inicio">Voltar</a></small>        
    <br/><br/>
    <hr/>
    <br/>
 
    <h3 id="Estrutura-HTML">Como é a Estrutura Básica do HTML?</h3>
+
+   <blockquote>
+    A <b><i>Estrutura Básica do HTML</i></b> é composta por algumas <b><i>Tags</i></b> importantes, mas qual é a função de cada uma delas? 
+   </blockquote>
+
+   <ol>
+    <li><b><i>&lt;!DOCTYPE html&gt; </i>: </b>Informa ao <b><i>Navegador</i></b> que esse Documento é do Tipo <b><i>HTML</i></b> e indica sua Versão;</li>
+    <li><b><i>&lt;html&gt; </i>: </b>É a <b><i>Raiz do Documento</i></b>, serve com um <b><i>Container</i></b> que engloba <b><i>TODOS</i></b> os outros <b><i>Elementos HTML</i></b>;</li>
+    <li><b><i>&lt;body&gt; </i>: </b>É onde fica todo o conteúdo de texto, imagem e vídeos, em que o usuário ou usuária vê e interage, nele os conteúdos são estruturados pelas demais tags do HTML;</li>
+    <li><b><i>&lt;head&gt; </i>: </b>Compreende as <b><i>Informações do Documento</i></b> que serão <b><i></i>Interpretadas</i></b> pelo <b><i>Navegador (Metadados)</i></b>, como, por exemplo, o <b><i>&lt;title&gt;;</i></b></li>
+    <li><b><i>&lt;meta&gt; </i>: </b>Define <b><i>Metadados</i></b>, ou seja, <b><i>Informações</i></b> sobre <b><i>Dados</i></b> de um <b><i>Documento HTML</i></b>, como, por exemplo, o 
+        <b><i>Autor</i></b> ou a <b><i>Autora</i></b> do <b><i>Documento</i></b></li>
+    <li><b><i>&lt;link&gt; </i>: </b>É uma tag vazia, que contém apenas atributos e faz a relação do documento HTML com recursos externos.
+        É comumente usado para vincular uma folha de estilo externa, também é usada para definir o favicon da página (ícone da aba do <b><i>Navegador</i></b>), como outros recursos;</li>
+        <li><b><i>&lt;style&gt; </i>: </b>Essa tag é usada para declarar estilos (CSS) para um documento.</li>
+    </ol>
+   
    <small><a href="#Inicio">Voltar</a></small>        
    <br/><br/>
    <hr/>
@@ -260,7 +222,9 @@ Aproveite para testar modificações pontuais: Inserir um atributo “id
    <p><a href="https://startbit.com.br/pt/article/ferramentas-para-desenvolvedores-devtools-e-inspecao-de-elementos" target="_blank">
     Domine as DevTools: Guia Prático para Inspecionar Elementos
    </a></p>
-   <p><a href="" target="_blank"></a></p>
+   <p><a href="https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-1-estrutura-basica#ltmetagt" target="_blank">
+    O que é o HTML e suas tags? Parte 1: estrutura básica
+   </a></p>
    <p><a href="" target="_blank"></a></p>
    <br/><br/>
    <small><a href="#Inicio">Voltar</a></small>        
