@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formação HTML</title>
+</head>
+<body>
+   <h1 id="Inicio">Formação HTML - Primeiros Passos com HTML</h1> 
+   <hr />
+   
+   <h2>Indíce</h2>
+   <ul>
+    <li><a href="#Cliente-Servidor">Comunicação Cliente x Servidor</a></li>
+        <ol>
+            <li><a href="#Historia-Web">História da Web</a></li>
+            <li><a href="#Definicao-Clientes">O que são Clientes?</a></li>
+            <li><a href="#Definicao-Servidores">O que são Servidores?</a></li>
+            <li><a href="#Definicao-HTML">O que é HTML?</a></li>   
+        </ol>
+
+    <li><a href="#Introducao-HTML">Introdução ao HTML na Prática</a></li>   
+        <ol>
+            <li><a href="#Inspetor_Elementos">O que é e como funciona o Inspetor de Elementos?</a></li>
+            <li><a href="#Estrutura-HTML">Como é a Estrutura Básica do HTML?</a></li>
+            <li><a href="#Definicao-Tags">O que são e como funcionam as Tags?</a></li>
+            <li><a href="#Tags-Mais-Utilizadas">Quais são as Tags mais utilizadas em 2025?</a></li> 
+            <li><a href="#Definicao-Atributos">O que são Atributos das Tags?</a></li>   
+        </ol>
+
+    <li><a href="#Referencias">Referências</a></li>      
+   </ul> 
+
+   <hr/>
+   <h2 id="Cliente-Servidor" align="center">Comunicação Cliente x Servidor</h2>
+   <hr/>
+   
+   <h3 id="Historia-Web">História da Web</h3>
+   <ol>
+       <li><b>Início da Criação da Internet</b></li>
+           <p>Durante a <b><i>Guerra Fria</i></b>, foi necessário arrumar uma forma de proteger as informações e comunicações das pesquisas 
+           americanas dos soviéticos, por isso começaram as pesquisas e o desenvolvimento tecnológico com o objetivo de encontrar um meio de comunicação 
+           seguro e que sobrevivesse a um ataque nuclear.</p> 
+            
+           <p>Em 1965 conseguiram realizar uma conexão bem sucedida de 2 computadores distantes com o conceito de uma rede galáctica para acessar rapidamente 
+           dados de qualquer lugar do mundo, mas o nascimento da Internet foi considerado ao criar a <b><i>ARPANET</i></b>, no qual, governo americano 
+           permitiu que as pesquisas fossem realizadas não só pelos militares como também pelas universidades.</p> 
+            
+           <p>Em 1969, houve uma conexão realizada com sucesso entre a Universidade da Califórnia e a de Stanford e a primeira queda na Conexão, 
+           meses depois 4 universidades americanas estavam conectadas. E a partir daí, deu-se início ao uso e ao aprimoramento da <b><i>Internet</i></b>.</p>
+    
+       <li><b>Surgimento da Web</b></li>
+           <p>Em 1989, Tim Berners-Lee criou a <b><i>World Wide Web</i></b>, ou seja, o tão famoso <b><i>www</i></b> que tanto utilizamos hoje! Este sistema 
+              foi criado para conectar as universidades com o intuito de fazer com que os trabalhos e as pesquisas acadêmicas fossem utilizados ao mesmo 
+              tempo. Este cientista também é responsável pelo desenvolvimento de duas ferramentas indispensáveis para a Internet: o 
+              <b><i>Código HTML</i></b> e o <b><i>Protocolo HTTP</i></b>.</p>
+    
+           <p>Muitas vezes, <b><i>Internet</i></b> e <b><i>Web</i></b> parecem ter o mesmo significado, mas não têm, elas tem características 
+            diferentes, pois a <b><i>Internet</i></b> é uma rede que conecta milhões de computadores pelo mundo, enquanto a <b><i>Web</i></b> é uma 
+            das ferramentas utilizadas para acessar a Internet.</p>
+    
+       <li><b>World Wide Web (www)</b></li>
+           <p> Funciona como um <b><i>Sistema de Sistribuição de Documentos de Hipertexto (HTTP)</i></b> interconectados e acessíveis por meio de um 
+               <b><i>Navegador Web</i></b> conectado à Internet. Com o <b><i>www</i></b>, conseguimos acessar a <b><i>Internet</i></b> nesse formato que 
+               usamos hoje. Antes da <b><i>Web</i></b> e dos <b><i>Navegador Web</i></b>, a forma de acessar a <b><i>Internet</i></b> era por meio do 
+               <b><i>Unix</i></b>.</p>
+   </ol>
+
+   <small><a href="#Inicio">Voltar</a></small>        
+   <br/><br/>
+   <hr/>
+   <br/>
+
+   <h3 id="Definicao-Clientes">O que são Clientes?</h3>
+   <blockquote>
+        <b><i>Cliente</i></b> é o <b><i>Computador</i></b> que está do lado do Usuário e que foi configurado para utilizar o <b><i>Serviço</i></b> 
+        que é oferecido pelo <b><i>Servidor</i></b>, ou seja, o <b><i>Computador Cliente</i></b> é aquele que se ocupa de um <b><i>Serviço</i></b>.
+   </blockquote>
+   <br/>
+   <small><a href="#Inicio">Voltar</a></small>        
+   <br/><br/>
+   <hr/>
+   <br/>
+
+   <h3 id="Definicao-Servidores">O que são Servidores?</h3>
+   <blockquote>
+        <b><i>Servidor</i></b> é o <b><i>Computador</i></b> no qual foi configurado em uma <b><i>Rede</i></b> para oferecer algum tipo de 
+        <b><i>Serviço</i></b>, ou seja,  o <b><i>Computador Servidor</i></b> é aquele que oferece um <b><i>Serviço ao Usuário</i></b>.
+   </blockquote>
+   <br/>
+   <small><a href="#Inicio">Voltar</a></small>        
+   <br/><br/>
+   <hr/>
+   <br/>
+
+   <h3 id="Definicao-HTML">O que é HTML?</h3>
+   <blockquote>
+        <b><i>HTML (HyperText Markup Language ou "Linguagem de Marcação de Hipertexto")</i></b> é uma <b><i>Linguagem de Marcação</i></b> 
+        utilizada na construção de <b><i>Páginas na Web</i></b> que é interpretada pelos <b><i>Navegadores Web</i></b>. A tecnologia é fruto da 
+        junção entre os padrões <b><i>HyTime</i></b> e <b><i>SGML</i></b>.
+    </blockquote>
+
+    <ul>
+        <li><b>HyTime: </b> É um padrão para a <b><i>Representação Estruturada de Hipermídia</i></b> e conteúdo baseado em <b><i>Tempo</i></b>, 
+            ou seja, é visto como um <b><i>Conjunto de Eventos Concorrentes</i></b> dependentes de <b><i>Tempo (como áudio, vídeo, etc.)</i></b>, 
+            conectados por <b><i>Hiperligações (em inglês: Hyperlink e Link)</i></b>;</li>
+
+        <li><b>SGML: </b> É um padrão de formatação de textos que <b>NÃO</b> foi desenvolvido para <b><i>Hipertexto</i></b>, mas tornou-se conveniente 
+            para Transformar <b><i>Documentos em Hiper-objetos</i></b> e para <b><i>Descrever as Ligações</i></b>.</li>
+    </ul>
+        
+   <small><a href="#Inicio">Voltar</a></small>        
+   <br/><br/>
+   <hr/>
+
+   <h2 id="Introducao-HTML"  align="center">Introdução ao HTML na Prática</h2>
+   <hr /> 
+
+   <h3 id="Inspetor_Elementos">O que é e como funciona o Inspetor de Elementos?</a></h3>
+   <ol>
+     <li><b>DevTools: </b> São <b><i>Conjuntos de Ferramentas de Desenvolvimento</i></b> integradas aos <b><i>Navegadores modernos (como Chrome, 
+         Firefox, Edge e Safari)</i></b>. Cada <b><i>Navegador</i></b> apresenta seu próprio <b><i>Painel de DevTools</i></b>, mas a ideia central 
+         é a mesma:                      
+     </li>
+
+     <br/>
+        <ol>
+            <li>Fornecer recursos para Inspecionar;</li>
+            <li>Editar e/ou Analisar a Página sem que seja necessário sair do próprio <b><i>Navegador</i></b>.</li>
+        </ol>
+
+     <br/>
+
+     <li><b>Importância do DevTools: </b></li>
+
+     <br/>
+        <ol>
+            <li>Visualizar a Estrutura do <b><i>DOM</i></b>e suas Alterações em Tempo Real;</li>
+            <li>Alterar <b><i>Propriedades e Atributos HTML</i></b> para Testar Comportamentos;</li>
+            <li>Analisar Problemas e Debugar Possíveis Erros;</li>
+            <li>Compreender o Funcionamento das Páginas;</li>
+            <li>Realizar Ajustes Rápidos.</li>
+        </ol>
+
+     <br/>   
+     <li><b>Acesso ao DevTools: </b></li>
+     
+     <br/>
+        <ol>
+            <li><b>Browser Chrome (ou Edge Chromium): </b>Clique com o botão direito em qualquer local da página e selecione 
+                “Inspecionar elemento” ou use o Atalho F12</b>;</li>
+
+            <li><b>Firefox: </b>Clique com o botão direito e escolha “Inspecionar” ou use Ctrl + Shift + C (no Windows) / Cmd + Opt + C (no Mac).
+     Navegando pelo Painel de Elementos</b>.</li>
+
+     <br/>
+
+     <li></li>
+     <br/>
+
+     <br/>
+
+     <li></li>
+     <br/>
+
+     <br/>
+   </ol>
+
+
+
+Ao abrir as DevTools
+, a aba Elements (no Chrome) ou Inspector (no Firefox) exibirá a árvore de elementos HTML
+ (DOM) em tempo real. Esta visualização ajuda a:
+
+1. Identificar a tag onde está localizado determinado conteúdo ou componente
+.
+
+2. Verificar quais atributos estão definidos (como id
+, class
+, data- etc.).
+
+3. Observar a estrutura hierárquica e entender como as tags
+ estão aninhadas.
+
+Na prática, basta passar o mouse sobre um elemento na DevTools
+ para que ele seja destacado na tela. É possível clicar nesses elementos para examinar detalhes de suas propriedades
+ e estilos (mesmo que o foco aqui seja HTML, boa parte do fluxo envolve também o CSS, pois as DevTools exibem essas declarações lado a lado).
+
+Editando HTML Direto no Navegador🔗
+Uma funcionalidade muito útil para quem está aprendendo HTML
+ é a possibilidade de editar o código diretamente na aba de Elements. Você pode:
+
+1. Dar duplo clique
+ em qualquer tag
+ ou texto.
+
+2. Modificar o que achar necessário (por exemplo, o conteúdo de um parágrafo
+) e então pressionar Enter para confirmar.
+
+Para experimentos rápidos ou correções emergenciais durante o desenvolvimento, essa abordagem é extremamente útil. Lembre-se de que essas alterações não são permanentes no arquivo original - elas funcionam apenas na página em execução no navegador.
+
+Ferramentas de Depuração e Console🔗
+Além da inspeção de elementos HTML
+, as DevTools oferecem uma aba de Console
+ (geralmente rotulada como “Console
+”). Embora o console
+ seja mais utilizado para JavaScript
+, também pode mostrar erros de carregamento ou avisos sobre recursos HTML deprecados e problemas de acessibilidade
+.
+
+Por exemplo, se existir um atributo que não seja reconhecido em uma versão particular do HTML5, o console pode exibir um alerta. Fique atento a essa aba para resolver possíveis problemas que não são imediatamente visíveis na exibição
+ do layout.
+
+Dicas Para Inspeção de Elementos🔗
+Localize elementos
+ de forma rápida: Clique no ícone de seletor (geralmente um cursor que aponta para uma caixa) na barra das DevTools
+. Em seguida, clique no elemento
+ da página que deseja inspecionar.
+Pesquise por tags
+ específicas: Algumas ferramentas incluem um campo de pesquisa (normalmente no topo ou em um menu lateral). Você pode digitar o nome de uma tag ou atributo para encontrá-lo em todo o HTML
+.
+Aproveite para testar modificações pontuais: Inserir um atributo “id
+” ou modificar um “class
+” e analisar efeitos imediatos na página resulta em um maior entendimento sobre a hierarquia do HTML
+.
+   <small><a href="#Inicio">Voltar</a></small>        
+   <br/><br/>
+   <hr/>
+   <br/>
+
+   <h3 id="Estrutura-HTML">Como é a Estrutura Básica do HTML?</h3>
+   <small><a href="#Inicio">Voltar</a></small>        
+   <br/><br/>
+   <hr/>
+   <br/>
+
+   <h3 id="Definicao-Tags">O que são e como funcionam as Tags?</h3>
+   <small><a href="#Inicio">Voltar</a></small>        
+   <br/><br/>
+   <hr/>
+   <br/>
+
+   <h3 id="Tags-Mais-Utilizadas">Quais são as Tags mais utilizadas em 2025?</h3>
+   <small><a href="#Inicio">Voltar</a></small>        
+   <br/><br/>
+   <hr/>
+   <br/>
+
+   <h3 id="Definicao-Atributos">O que são Atributos das Tags?</h3>
+   <small><a href="#Inicio">Voltar</a></small>        
+   <br/><br/>
+   <hr/>
+   <br/>
+
+   <h2 id="Referencias">Referências</h2>
+   <p><a href="https://utechdigital.com/a-historia-da-web/" target="_blank">A história da Web.</a></p>
+   <p><a href="https://www.ultra64.com.br/o-que-sao-e-quais-as-diferencas-entre-cliente-e-servidor/" target="_blank">
+    O que são e quais as diferenças entre Cliente e Servidor?</a></p>
+   <p><a href="https://pt.wikipedia.org/wiki/HTML" target="_blank">HTML</a></p>
+   <p><a href="https://startbit.com.br/pt/article/ferramentas-para-desenvolvedores-devtools-e-inspecao-de-elementos" target="_blank">
+    Domine as DevTools: Guia Prático para Inspecionar Elementos
+   </a></p>
+   <p><a href="" target="_blank"></a></p>
+   <p><a href="" target="_blank"></a></p>
+   <br/><br/>
+   <small><a href="#Inicio">Voltar</a></small>        
+   <br/><br/>
+   <hr/>
+   <br/>
+  </body>
+</html>
